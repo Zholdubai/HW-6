@@ -1,0 +1,12 @@
+Virtual Environment(VE)-это инструмент python для управления зависимостями и изоляции проектов .
+С помощью VE можем устанавливать пакеты pip локально в изолированном каталоге для конкретного проекта.
+ Этих пакетов не будет в других проектах python .
+ С другими словами VE пригодятся нам тогда когда мы используем в проекте старых или новых версий программ.
+ Как создавать VE .
+ С начало надо убедиться что у нас установлен virtualenv если нет то мы можем установить
+ так pip install virtualenv. Следующие команды позволить нам создать новый файл в нашем проекте
+ > mkdir new_folder        #create new folder for project
+> cd new_folder           #set current directory to folder
+> virtualenv venv         #Create a virtual environment called venv
+> cd venv/Scripts         #Set working directory to venv
+> . activate                #Activate the environment
