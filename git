@@ -1,1 +1,3 @@
 git status
+git commit -m 'hw7'
+git push origin master
